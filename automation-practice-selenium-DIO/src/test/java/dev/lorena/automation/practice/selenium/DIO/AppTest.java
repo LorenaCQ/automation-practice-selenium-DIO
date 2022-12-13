@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AppTest {
-	private WebDriver driver;
+	private WebDriver driver;//TESTEE
 	
 	@Test
     public void helloSelenium() {
