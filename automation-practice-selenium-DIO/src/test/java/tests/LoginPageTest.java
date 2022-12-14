@@ -11,7 +11,7 @@ import pages.LoginPage;
 
 class LoginPageTest {
 	private LoginPage loginPage;
-	private final String URL = "https://practice.automationtesting.in/my-account";
+	private final String URL = "https://www.saucedemo.com";
 	
 	@BeforeEach
 	void setUp() throws Exception {
@@ -31,7 +31,7 @@ class LoginPageTest {
 		loginPage.signin();
 		
 		//then
-		Assertions.assertTrue(this.loginPage.getEmailAccountMessage().equals("lorena123queiroz"));
+		Assertions.assertTrue(this.loginPage.getSpanProductsMessage().equals("PRODUCTS"));
 		Assertions.assertFalse(this.loginPage.getCurrentUrl().equals(this.URL)); //verifica se a url muda, porque acessa outra pagina
 	}
 

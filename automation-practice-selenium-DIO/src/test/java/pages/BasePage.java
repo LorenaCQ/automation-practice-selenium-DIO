@@ -17,7 +17,7 @@ public abstract class BasePage {
 	}
 	
 	public void visit(String url) {
-		this.driver.get(url);
+		this.driver.get(url); //URL que eu quero que meu drive abra
 	}
 	
 	public String getCurrentUrl() {
@@ -25,7 +25,7 @@ public abstract class BasePage {
 	}
 	
 	public void quitWebDriver() {
-		//this.driver.quit();
+		this.driver.quit(); //depois de passar por todos os testes, a aplicação é fechada
 	}
 	
 	public WebElement findElement(By locator) {
