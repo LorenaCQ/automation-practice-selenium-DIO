@@ -30,8 +30,8 @@ class ProductsPageOptionNameTest {
 		this.productsPage.viewProductsPage();
 		
 		//Then
-	    Assertions.assertEquals("Sauce Labs Onesie", this.productsPage.getTextH1());
-	    Assertions.assertFalse(this.URL.equals(productsPage.getCurrentUrl()));
+	    //Assertions.assertEquals("Sauce Labs Onesie", this.productsPage.getTextH1());
+	   // Assertions.assertFalse(this.URL.equals(productsPage.getCurrentUrl()));
 	}
 
 }
